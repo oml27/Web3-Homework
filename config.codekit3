@@ -192,14 +192,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/Starting Template\/dev\/content\/body.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/Starting Template\/dev\/content\/body.html",
-      "oF" : 0
-    },
     "\/Starting Template\/dev\/content\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -212,7 +204,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/Starting Template\/dev\/content\/gallery.html",
       "oF" : 0
     },
@@ -236,7 +228,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/Starting Template\/dev\/content\/hero.html",
       "oF" : 0
     },
@@ -244,7 +236,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/Starting Template\/dev\/content\/whatsnew.html",
       "oF" : 0
     },
@@ -434,21 +426,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/Starting Template\/dev\/scss\/layout\/_header.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/Starting Template\/dev\/scss\/sections\/_body.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/Starting Template\/dev\/scss\/sections\/_body.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

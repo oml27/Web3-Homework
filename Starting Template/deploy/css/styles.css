@@ -414,10 +414,22 @@ textarea {
   background-color: #D0A5C0;
 }
 
-#body {
+#hero {
   display: grid;
   grid-template-columns: 1fr;
-  background-color: #4d88d5;
+  background-color: #ec78a6;
+}
+
+#gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #69dd79;
+}
+
+#whatsnew {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #f7a014;
 }
 
 #footer {
