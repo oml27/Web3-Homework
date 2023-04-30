@@ -1,9 +1,63 @@
 #hero{
 
     display: grid;
-
     grid-template-columns: 1fr;
+    
+#section-1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "left1" "right1";
 
-    background-color: #ec78a6
+    #left1{
+        background-color: $dark-blue;
+        color: white;
+    }
+    
+    #right1{
+        background-color: $light-blue;
+        color: white;
+    }
 
+
+    @include md{
+        grid-template-columns: 30% 70%;
+    }
+
+    @include lg{
+        grid-template-columns: 50% 50%;
+    }
+
+    @include xl{
+        grid-template-columns: 50% 50%;
+    }
+}
+
+#section-2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "left2" "right2";
+    grid-gap: 16px;
+    margin: 16px;
+
+    #left2{
+        background-color: $light-yellow;
+    }
+    
+    #right2{
+        background-color: $light-yellow;
+    }
+
+
+    @include md{
+        grid-template-columns: 50% 50%;
+    }
+
+    @include lg{
+        grid-template-columns: 50% 50%;
+    }
+
+    @include xl{
+        grid-template-columns: 50% 50%;
+    }
+}
 }
