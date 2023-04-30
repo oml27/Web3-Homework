@@ -110,6 +110,19 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
+    "\/Starting Template\/deploy\/img\/museuminterior.jpeg" : {
+      "ft" : 16384,
+      "iS" : 188438,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Starting Template\/deploy\/img\/museuminterior.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/Starting Template\/deploy\/img\/museuminterior4.webp" : {
       "ft" : 8388608,
       "iS" : 518392,
@@ -140,19 +153,6 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/Starting Template\/deploy\/img\/museumpaintings.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/Starting Template\/deploy\/img\/musueminterior.jpeg" : {
-      "ft" : 16384,
-      "iS" : 188438,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/Starting Template\/deploy\/img\/musueminterior.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -256,28 +256,6 @@
       "oA" : 0,
       "oAP" : "\/Starting Template\/deploy\/js\/scripts-min.js",
       "oF" : 2,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/Starting Template\/dev\/js\/section-2.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/Starting Template\/dev\/js\/section-2-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/Starting Template\/dev\/js\/section-4.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/Starting Template\/dev\/js\/section-4-min.js",
-      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
