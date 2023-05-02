@@ -2,7 +2,24 @@
 
     display: grid;
 
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
 
-    background-color: #69dd79
+    grid-template-areas: "image1" "image2" "image3";
+
+    @include sm{
+        grid-template-columns: 1fr;
+    }
+    
+    @include md{
+        grid-template-columns: 50% 50% 0%;
+    }
+
+    @include lg{
+        grid-template-columns: 60% 40% 0%;
+    }
+
+    @include xl{
+        grid-template-columns: 70% auto auto;
+        
+    }
 }

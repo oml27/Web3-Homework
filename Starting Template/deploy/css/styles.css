@@ -478,14 +478,63 @@ textarea {
 
 #gallery {
   display: grid;
-  grid-template-columns: 1fr;
-  background-color: #69dd79;
+  grid-template-columns: auto;
+  grid-template-areas: "image1" "image2" "image3";
+}
+@media (min-width: 576px) {
+  #gallery {
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 768px) {
+  #gallery {
+    grid-template-columns: 50% 50% 0%;
+  }
+}
+@media (min-width: 992px) {
+  #gallery {
+    grid-template-columns: 60% 40% 0%;
+  }
+}
+@media (min-width: 1200px) {
+  #gallery {
+    grid-template-columns: 70% auto auto;
+  }
 }
 
 #whatsnew {
   display: grid;
   grid-template-columns: 1fr;
-  background-color: #f7a014;
+}
+#whatsnew ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-gap: 8px;
+}
+#whatsnew .card {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #F8F6E9;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  #whatsnew {
+    margin: 0, 40px;
+  }
+  #whatsnew ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8px;
+  }
+}
+@media (min-width: 992px) {
+  #whatsnew {
+    margin: 0, 100px;
+  }
+  #whatsnew ul {
+    grid-template-columns: repeat 5, 1fr;
+  }
 }
 
 #footer {
