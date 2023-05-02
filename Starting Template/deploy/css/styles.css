@@ -505,6 +505,7 @@ textarea {
 #whatsnew {
   display: grid;
   grid-template-columns: 1fr;
+  margin-bottom: 16px;
 }
 #whatsnew ul {
   margin: 0;
@@ -540,5 +541,12 @@ textarea {
 #footer {
   display: grid;
   grid-template-columns: 1fr;
-  background-color: #f3cc60;
+  background-color: #1D345A;
+  color: white;
+  grid-template-areas: "locations" "signup" "follow";
+}
+@media (min-width: 768px) {
+  #footer {
+    grid-template-columns: 30% auto auto;
+  }
 }
