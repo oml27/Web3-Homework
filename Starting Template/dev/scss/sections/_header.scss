@@ -1,11 +1,12 @@
-#header{
+header{
+
+    img{
+        width: 20%;
+    }
    
     display: grid;
 
     grid-template-columns: 1fr;
 
-    background-color: $light-blue;
-
-    color: white;
-
+    background-color: white;
 }

@@ -408,11 +408,13 @@ textarea {
 /* =============
     Footer
 ============= */
-#header {
+header {
   display: grid;
   grid-template-columns: 1fr;
-  background-color: #4167A4;
-  color: white;
+  background-color: white;
+}
+header img {
+  width: 20%;
 }
 
 #hero {
@@ -538,7 +540,7 @@ textarea {
   }
 }
 
-#footer {
+footer {
   display: grid;
   grid-template-columns: 1fr;
   background-color: #1D345A;
@@ -546,7 +548,7 @@ textarea {
   grid-template-areas: "locations" "signup" "follow";
 }
 @media (min-width: 768px) {
-  #footer {
+  footer {
     grid-template-columns: auto auto auto;
   }
 }
