@@ -1,12 +1,35 @@
 header{
 
-    img{
-        width: 20%;
-    }
-   
     display: grid;
 
     grid-template-columns: 1fr;
 
     background-color: white;
-}
+
+    img{
+        width: 115px;
+        padding: 20px;
+    }
+   
+    #searchbar{
+
+        display: flex;
+        background-color: $light-blue;
+        align-items: center;
+        justify-content: space-between;
+
+        h1{
+            width: 100%;
+            color: white;
+            border-bottom: 1px solid white;
+        }
+        
+        button{
+            background-color: transparent;
+            border: none;
+            img{
+            width: 40px;
+            }
+        }
+    }
+    }

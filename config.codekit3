@@ -173,6 +173,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/Starting Template\/deploy\/img\/searchicon.png" : {
+      "ft" : 32768,
+      "iS" : 17414,
+      "oA" : 0,
+      "oAP" : "\/Starting Template\/deploy\/img\/searchicon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/Starting Template\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
