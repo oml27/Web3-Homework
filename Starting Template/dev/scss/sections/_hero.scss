@@ -11,11 +11,27 @@
     #left1{
         background-color: $dark-blue;
         color: white;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img{
+            width: 10px;
+        }
     }
     
     #right1{
         background-color: $light-blue;
         color: white;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img{
+            width: 10px;
+        }
     }
 
 
@@ -41,10 +57,40 @@
 
     #left2{
         background-color: $light-yellow;
+        display: flex;
+        padding: 16px;
+        align-self: center;
+        justify-content: space-between;
+
+        button{
+            background-color: $yellow;
+            border: none;
+        }
+
+        img{
+            width: 85px;
+            height: 85px;
+            border-radius: 100px;
+        }
     }
     
     #right2{
         background-color: $light-yellow;
+        display: flex;
+        padding: 16px;
+        align-self: center;
+        justify-content: space-between;
+
+        button{
+            background-color: $yellow;
+            border: none;
+        }
+
+        img{
+            width: 85px;
+            height: 85px;
+            border-radius: 100px;
+        }
     }
 
 

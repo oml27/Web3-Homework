@@ -448,10 +448,24 @@ header #searchbar button img {
 #hero #section-1 #left1 {
   background-color: #1D345A;
   color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#hero #section-1 #left1 img {
+  width: 10px;
 }
 #hero #section-1 #right1 {
   background-color: #4167A4;
   color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#hero #section-1 #right1 img {
+  width: 10px;
 }
 @media (min-width: 768px) {
   #hero #section-1 {
@@ -477,9 +491,35 @@ header #searchbar button img {
 }
 #hero #section-2 #left2 {
   background-color: #F8F6E9;
+  display: flex;
+  padding: 16px;
+  align-self: center;
+  justify-content: space-between;
+}
+#hero #section-2 #left2 button {
+  background-color: #FFD205;
+  border: none;
+}
+#hero #section-2 #left2 img {
+  width: 85px;
+  height: 85px;
+  border-radius: 100px;
 }
 #hero #section-2 #right2 {
   background-color: #F8F6E9;
+  display: flex;
+  padding: 16px;
+  align-self: center;
+  justify-content: space-between;
+}
+#hero #section-2 #right2 button {
+  background-color: #FFD205;
+  border: none;
+}
+#hero #section-2 #right2 img {
+  width: 85px;
+  height: 85px;
+  border-radius: 100px;
 }
 @media (min-width: 768px) {
   #hero #section-2 {

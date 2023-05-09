@@ -34,6 +34,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/Starting Template\/deploy\/img\/arrow.png" : {
+      "ft" : 32768,
+      "iS" : 4099,
+      "oA" : 0,
+      "oAP" : "\/Starting Template\/deploy\/img\/arrow.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/Starting Template\/deploy\/img\/artkids.jpeg" : {
       "ft" : 16384,
       "iS" : 58185,
