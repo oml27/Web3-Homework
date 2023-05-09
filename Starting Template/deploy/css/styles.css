@@ -549,17 +549,17 @@ header #searchbar button img {
 }
 @media (min-width: 768px) {
   #gallery {
-    grid-template-columns: 50% 50% 0%;
+    grid-template-columns: 50% 50%;
   }
 }
 @media (min-width: 992px) {
   #gallery {
-    grid-template-columns: 60% 40% 0%;
+    grid-template-columns: 60% 40%;
   }
 }
 @media (min-width: 1200px) {
   #gallery {
-    grid-template-columns: 70% auto auto;
+    grid-template-columns: 70% 30%;
   }
 }
 
