@@ -1,25 +1,77 @@
 #gallery{
 
-    display: grid;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-areas:
+    "image1"
+    "image2"
+    "image3";
 
-    grid-template-columns: auto;
-
-    grid-template-areas: "image1" "image2" "image3";
-
-    @include sm{
-        grid-template-columns: 1fr;
+    li.image1 {
+        grid-area: image1;
+        height: 360px;
+        background-image: url(../img/museuminterior.jpeg);
+        background-size: cover;
+        background-position: center center;
     }
-    
+
+    li.image2 {
+        grid-area: image2;
+        height: 480px;
+        background-image: url(../img/museumexterior2.webp);
+        background-size: cover;
+        background-position: center center;
+    }
+
+    li.image3 {
+        grid-area: image3;
+        height: 360px;
+        background-image: url(../img/museuminterior5.jpeg);
+        background-size: cover;
+        background-position: center center;
+        display: none;
+    }
+
     @include md{
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "image1 image2";
+
+        li.image1, li.image2{
+            height: 600px;
+        }
+
     }
 
     @include lg{
         grid-template-columns: 60% 40%;
+        grid-template-areas:
+        "image1 image2";
+
+        li.image1, li.image2{
+            height: 600px;
+        }
+
     }
 
     @include xl{
-        grid-template-columns: 70% 30%;
-        
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "image1 image2"
+            "image1 image3";
+
+        li.image1{
+            height: auto;
+        }
+        li.image3{
+            display: inline;
+        }
+        li.image2, li.image3{
+            height: 400px;
+        }
     }
+
 }

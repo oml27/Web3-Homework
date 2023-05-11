@@ -538,28 +538,66 @@ header #searchbar button img {
 }
 
 #gallery {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 1fr;
   grid-template-areas: "image1" "image2" "image3";
 }
-@media (min-width: 576px) {
-  #gallery {
-    grid-template-columns: 1fr;
-  }
+#gallery li.image1 {
+  grid-area: image1;
+  height: 360px;
+  background-image: url(../img/museuminterior.jpeg);
+  background-size: cover;
+  background-position: center center;
+}
+#gallery li.image2 {
+  grid-area: image2;
+  height: 480px;
+  background-image: url(../img/museumexterior2.webp);
+  background-size: cover;
+  background-position: center center;
+}
+#gallery li.image3 {
+  grid-area: image3;
+  height: 360px;
+  background-image: url(../img/museuminterior5.jpeg);
+  background-size: cover;
+  background-position: center center;
+  display: none;
 }
 @media (min-width: 768px) {
   #gallery {
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "image1 image2";
+  }
+  #gallery li.image1, #gallery li.image2 {
+    height: 600px;
   }
 }
 @media (min-width: 992px) {
   #gallery {
     grid-template-columns: 60% 40%;
+    grid-template-areas: "image1 image2";
+  }
+  #gallery li.image1, #gallery li.image2 {
+    height: 600px;
   }
 }
 @media (min-width: 1200px) {
   #gallery {
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "image1 image2" "image1 image3";
+  }
+  #gallery li.image1 {
+    height: auto;
+  }
+  #gallery li.image3 {
+    display: inline;
+  }
+  #gallery li.image2, #gallery li.image3 {
+    height: 400px;
   }
 }
 
