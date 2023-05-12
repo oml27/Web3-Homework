@@ -607,33 +607,87 @@ header #searchbar button img {
   margin-bottom: 16px;
 }
 #whatsnew ul {
-  margin: 0;
-  padding: 0;
-  display: grid;
-  grid-gap: 8px;
+  display: flex;
+  flex-direction: column;
 }
-#whatsnew .card {
-  display: grid;
-  grid-template-columns: 1fr;
+#whatsnew ul .card {
   background-color: #F8F6E9;
-  width: 100%;
+}
+#whatsnew ul .card figure {
+  margin: 0;
+  height: 250px;
+  overflow: hidden;
+}
+#whatsnew ul .card .textdetail {
+  padding: 16px;
+}
+#whatsnew ul .card .textdetail h2 {
+  margin-bottom: 16px;
+}
+#whatsnew ul .card .textdetail p {
+  margin-bottom: 40px;
+}
+#whatsnew ul .card .button {
+  background-color: #4167A4;
+  color: white;
+  border: none;
+  width: 100px;
+  height: 20px;
 }
 @media (min-width: 768px) {
-  #whatsnew {
-    margin: 0, 40px;
-  }
   #whatsnew ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 8px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #whatsnew ul .card {
+    flex-basis: 49%;
+  }
+  #whatsnew ul .card figure {
+    margin: 0;
+    height: 175px;
+    overflow: hidden;
+  }
+  #whatsnew ul li:last-child {
+    margin: 0 auto;
   }
 }
 @media (min-width: 992px) {
-  #whatsnew {
-    margin: 0, 100px;
-  }
   #whatsnew ul {
-    grid-template-columns: repeat 5, 1fr;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+  #whatsnew ul .card {
+    flex-basis: 30%;
+  }
+  #whatsnew ul .card figure {
+    margin: 0;
+    height: 175px;
+    overflow: hidden;
+  }
+  #whatsnew ul li:last-child {
+    margin: 0;
+  }
+}
+@media (min-width: 1200px) {
+  #whatsnew ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+  #whatsnew ul .card {
+    flex-basis: 30%;
+  }
+  #whatsnew ul .card figure {
+    margin: 0;
+    height: 250px;
+    overflow: hidden;
+  }
+  #whatsnew ul li:last-child {
+    margin: 0;
   }
 }
 

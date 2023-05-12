@@ -7,39 +7,104 @@
     margin-bottom: 16px;
 
     ul{
-        margin: 0;
-        padding: 0;
-        display: grid;
-        grid-gap: 8px;
-        
-    }
+        display: flex;
+        flex-direction: column;
+
 
    .card{
 
-    display: grid;
-
-    grid-template-columns: 1fr;
-
     background-color: $light-yellow;
 
-    width: 100%;
+    figure{
+        margin:0;
+        height: 250px;
+        overflow: hidden;
+    }
+
+    .textdetail{
+        padding: 16px;
+            h2{
+                margin-bottom: 16px;
+            }
+            p{
+                margin-bottom: 40px;
+            }
+    }
+
+    .button{
+        background-color: $light-blue;
+        color: white;
+        border: none;
+        width: 100px;
+        height: 20px;
+    }
 
    }
 
    @include md{
-    margin: 0, 40px;
-    ul{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 8px;
-    }
-   }
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-between;
 
-   @include lg{
-    margin: 0, 100px;
-    ul{
-        grid-template-columns: repeat (5, 1fr);
+    .card{
+        flex-basis: 49%;
+
+        figure{
+            margin:0;
+            height: 175px;
+            overflow: hidden;
+        }
     }
-   }
+
+    li:last-child{
+        margin: 0 auto;
+    }
+    }
+
+    @include lg{
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 16px;
+
+    .card{
+        flex-basis: 30%;
+
+        figure{
+            margin:0;
+            height: 175px;
+            overflow: hidden;
+        }
+    }
+    
+    li:last-child{
+        margin: 0;
+    }
+
+    }
+
+    @include xl{
+        flex-direction: row;
+        flex-wrap: wrap; 
+        justify-content: center;
+        gap: 16px;
+    
+        .card{
+            flex-basis: 30%;
+    
+            figure{
+                margin:0;
+                height: 250px;
+                overflow: hidden;
+            }
+        }
+        
+        li:last-child{
+            margin: 0;
+        }
+    
+        }
+  
+}
 
 }
