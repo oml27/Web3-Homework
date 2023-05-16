@@ -335,6 +335,10 @@ ul li {
   list-style: none;
 }
 
+* {
+  font-family: Helvetica;
+}
+
 .container-grid {
   display: grid;
   grid-template-columns: auto 1200px auto;
@@ -697,9 +701,39 @@ footer {
   background-color: #1D345A;
   color: white;
   grid-template-areas: "locations" "signup" "follow";
+  padding: 24px;
+}
+footer div {
+  margin-top: 24px;
+}
+footer div h3 {
+  margin-bottom: 12px;
+}
+footer div .border-bottom {
+  border-bottom: white solid 2px;
+  margin-bottom: 8px;
+}
+footer div #icons {
+  width: 200px;
+}
+footer div button {
+  background-color: #4167A4;
+  color: white;
+  border: none;
+  width: 80px;
+  height: 20px;
+}
+footer div form {
+  color: black;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 8px;
+  background-color: #F8F6E9;
+  margin-bottom: 16px;
+  width: 500px;
 }
 @media (min-width: 768px) {
-  footer {
-    grid-template-columns: auto auto auto;
+  footer div {
+    display: flex;
   }
 }

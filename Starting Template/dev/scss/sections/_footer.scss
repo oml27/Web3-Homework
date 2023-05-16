@@ -10,7 +10,47 @@ footer{
 
     grid-template-areas: "locations" "signup" "follow";
 
+    padding: 24px;
+
+    div{
+        margin-top: 24px;
+
+
+        h3{
+            margin-bottom: 12px;
+        }
+
+        .border-bottom{
+            border-bottom: white solid 2px;
+            margin-bottom: 8px;
+        }
+
+        #icons{
+            width: 200px;
+        }
+
+        button{
+            background-color: $light-blue;
+            color: white;
+            border: none;
+            width: 80px;
+            height: 20px;
+        }
+
+        form{
+            
+            color: black;
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 8px;
+            background-color:#F8F6E9;
+            margin-bottom: 16px;
+            width: 500px;
+        }
+
     @include md{
-        grid-template-columns: auto auto auto;
+        display: flex;
     }
+}
+
 }

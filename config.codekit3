@@ -73,6 +73,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/Starting Template\/deploy\/img\/icons.png" : {
+      "ft" : 32768,
+      "iS" : 19714,
+      "oA" : 0,
+      "oAP" : "\/Starting Template\/deploy\/img\/icons.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/Starting Template\/deploy\/img\/location.png" : {
+      "ft" : 32768,
+      "iS" : 7436,
+      "oA" : 0,
+      "oAP" : "\/Starting Template\/deploy\/img\/location.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/Starting Template\/deploy\/img\/logo.png" : {
       "ft" : 32768,
       "iS" : 282826,
@@ -171,6 +197,19 @@
       "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/Starting Template\/deploy\/img\/phone.png" : {
+      "ft" : 32768,
+      "iS" : 6440,
+      "oA" : 0,
+      "oAP" : "\/Starting Template\/deploy\/img\/phone.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
       "rq" : 75
     },
     "\/Starting Template\/deploy\/img\/santa_trinita.jpg" : {
