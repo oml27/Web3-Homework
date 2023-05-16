@@ -48,6 +48,26 @@ footer{
             width: 500px;
             height: 24px;
         }
+         
+        #locations{
+
+            grid-column-templates: 70% auto;
+            padding: 16px;
+            grid-area: locations;
+        }
+
+        #signup{
+            grid-column-templates: 70% auto;
+            padding: 16px;
+            grid-area: signup;
+
+        }
+
+        #follow{
+            grid-column-templates: 70% auto;
+            padding: 16px;
+            grid-area: follow;
+        }
 
     @include md{
         display: grid;

@@ -733,6 +733,21 @@ footer div form {
   width: 500px;
   height: 24px;
 }
+footer div #locations {
+  grid-column-templates: 70% auto;
+  padding: 16px;
+  grid-area: locations;
+}
+footer div #signup {
+  grid-column-templates: 70% auto;
+  padding: 16px;
+  grid-area: signup;
+}
+footer div #follow {
+  grid-column-templates: 70% auto;
+  padding: 16px;
+  grid-area: follow;
+}
 @media (min-width: 768px) {
   footer div {
     display: grid;
