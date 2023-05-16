@@ -731,9 +731,12 @@ footer div form {
   background-color: #F8F6E9;
   margin-bottom: 16px;
   width: 500px;
+  height: 24px;
 }
 @media (min-width: 768px) {
   footer div {
-    display: flex;
+    display: grid;
+    grid-template-columns: 30% 40% 20%;
+    grid-template-areas: "locations" "signup" "follow";
   }
 }
