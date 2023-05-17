@@ -357,7 +357,7 @@ ul li {
     Typography
 ============= */
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "helvetica";
 }
 
 h1, h2, h3, h4 {
@@ -740,6 +740,10 @@ footer div .icon {
 footer div #locations {
   padding: 16px;
   grid-area: locations;
+}
+footer div #locations .flex {
+  display: flex;
+  align-items: center;
 }
 footer div #signup {
   padding: 16px;

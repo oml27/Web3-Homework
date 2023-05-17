@@ -1,4 +1,4 @@
-footer{
+footer {
 
     display: grid;
 
@@ -12,20 +12,20 @@ footer{
 
     padding: 24px;
 
-    @include xl{
+    @include xl {
         display: grid;
         grid-template-columns: auto 1200px auto;
     }
 
-    div{
+    div {
         margin-top: 24px;
         grid-area: footer;
 
-        h3{
+        h3 {
             margin-bottom: 12px;
         }
 
-        button{
+        button {
             background-color: $light-blue;
             color: white;
             border: none;
@@ -33,58 +33,65 @@ footer{
             height: 20px;
         }
 
-        form{
-            
+        form {
+
             color: black;
             padding-top: 24px;
             padding-bottom: 24px;
             padding-left: 8px;
-            background-color:#F8F6E9;
+            background-color: #F8F6E9;
             margin-bottom: 16px;
             width: 500px;
             height: 24px;
         }
 
-        .icon{
+        .icon {
             width: 40px;
             height: 40px;
         }
-         
-        #locations{
+
+        #locations {
             padding: 16px;
             grid-area: locations;
+
+            .flex{
+                display: flex;
+                align-items: center;
+            }
+
+
         }
 
-        #signup{
+        #signup {
             padding: 16px;
             grid-area: signup;
 
         }
 
-        #follow{
+        #follow {
             padding: 16px;
             grid-area: follow;
 
-            #icons{
+            #icons {
                 width: 200px;
             }
         }
 
-        @include md{
+        @include md {
             display: grid;
             grid-template-columns: repeat (2, 1fr);
             grid-template-rows: 40% auto;
             grid-template-areas:
-            "locations signup"
-            ". follow";
+                "locations signup"
+                ". follow";
         }
 
-        @include lg{
+        @include lg {
             display: grid;
             grid-template-columns: repeat (3, 1fr);
             grid-template-areas:
-            "locations signup follow";
+                "locations signup follow";
         }
-    }   
+    }
 
 }
